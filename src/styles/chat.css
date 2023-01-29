@@ -1,0 +1,142 @@
+.chat-page{
+
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    
+   
+}
+.chat-page_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #98B880;
+    pad: 1rem;
+    padding:0.7rem;
+}
+
+.chat-page_header .back{
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: white;
+}
+.chat-page_header .back span{
+
+    display: block;
+}
+.chat-page_header .welcome{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.chat-page_message_send{
+    /* position: absolute; */
+    background-color: white;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100;
+    max-width: 500px;
+    padding:0.5rem 1rem;
+    width: 100%;
+    gap: 0.5rem;
+}
+.chat-page_message_send input{
+    padding: 1rem;
+    background-color: #E7E7E7;
+    border: none;
+    font-weight: 600;
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+    
+}
+.chat-page_message_send input:focus{
+    outline: none;
+    
+}
+.chat-page_message_send .send_button{
+    background-color: #98B880;
+    padding: 12px;
+    border-radius: 100px;
+}
+.chat-page_message_send .send_button img{
+    position: relative;
+    top: 2px;
+    left: -1px;
+}
+
+.chat-page_chat_box{
+   height: 42vh;
+   margin-top: 0.5rem;
+   padding: 0.5rem;
+   -ms-overflow-style: none !important;
+   -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+.chat-page_chat_box::-webkit-scrollbar{
+    display: none;
+}
+.chat-page_chat_box .connected{
+    color: rgba(128, 128, 128, 0.7);
+    text-align: center;
+    background: #E7E7E7;
+    padding: 0.5rem 0.7rem;
+    border-radius: 100px;
+    width: fit-content;
+    margin: auto;
+    display: none;
+}
+.chat-page .chat{
+    font-weight: 600;
+
+background-color: #98B880;
+border-radius: 10px;
+padding: 0.5rem 1rem 0.5rem 1rem;
+width: max-content;
+max-width: 85% ;
+color: white;
+display: block;
+clear: both;
+
+
+}
+.chat-page .left{
+    float: left;
+    margin-bottom: 0.5rem;
+ 
+
+}
+.chat-page .right{
+    margin-bottom: 0.5rem;
+
+    float: right;
+    background-color: #70BDC2;
+}
+.chat-page .chat .name{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+color: rgba(255, 255, 255, 0.8)
+}
+.user_left{
+    color: white;
+    text-align: center;
+    background: #d84a4a;
+    padding: 0.5rem 0.7rem;
+    border-radius: 100px;
+    width: fit-content;
+    margin: auto;
+    display: none ;
+
+}
+

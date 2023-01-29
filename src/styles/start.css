@@ -1,0 +1,53 @@
+.start-page{
+    margin-top: 12% !important;
+   background-color: white;
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+.start-page_heading1{
+    font-size: 50px;
+    font-family: "Bebas Neue";
+    color: #98B880;
+}
+.start-page_heading1>span{
+    text-decoration: underline;
+    color: #70BDC2;
+}
+.start-page_heading2{
+    color: #676767;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.start-page input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #808080;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    background-color: #E7E7E7;
+
+}
+.start-page button{
+    width: -webkit-fill-available;
+    padding: 0.6rem;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: #98B880;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 20px;
+   
+}
+.start-page a{
+    width: 100%;
+}
